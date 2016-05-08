@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixCardBot", "MatrixCardBot\MatrixCardBot.csproj", "{EA53B65C-D78E-4EB3-BE28-711B8BAD3BBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixSDK", "..\..\..\matrix-dotnet-sdk\MatrixSDK\MatrixSDK\MatrixSDK.csproj", "{BF7A3DBC-EFBD-43D2-8609-CCAB4A9DFA07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF7A3DBC-EFBD-43D2-8609-CCAB4A9DFA07}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BF7A3DBC-EFBD-43D2-8609-CCAB4A9DFA07}.Debug|x86.Build.0 = Debug|Any CPU
+		{BF7A3DBC-EFBD-43D2-8609-CCAB4A9DFA07}.Release|x86.ActiveCfg = Release|Any CPU
+		{BF7A3DBC-EFBD-43D2-8609-CCAB4A9DFA07}.Release|x86.Build.0 = Release|Any CPU
+		{EA53B65C-D78E-4EB3-BE28-711B8BAD3BBB}.Debug|x86.ActiveCfg = Debug|x86
+		{EA53B65C-D78E-4EB3-BE28-711B8BAD3BBB}.Debug|x86.Build.0 = Debug|x86
+		{EA53B65C-D78E-4EB3-BE28-711B8BAD3BBB}.Release|x86.ActiveCfg = Release|x86
+		{EA53B65C-D78E-4EB3-BE28-711B8BAD3BBB}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.TextStylePolicy = $2
+		$2.FileWidth = 120
+		$2.inheritsSet = VisualStudio
+		$2.inheritsScope = text/plain
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.AfterDelegateDeclarationParameterComma = True
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/x-csharp
+		$3.scope = text/x-csharp
+	EndGlobalSection
+EndGlobal
